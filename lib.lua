@@ -3282,7 +3282,7 @@ function library:Init(key)
             sliderIndicatorStraint.MaxSize = Vector2.new(392, 12)
 
             sliderIndicatorGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(211, 117, 80)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(128, 94, 208))}
-            sliderIndicatorGradient.Rotation = 90
+            sliderIndicatorGradient.Rotation = 0
             sliderIndicatorGradient.Name = "sliderIndicatorGradient"
             sliderIndicatorGradient.Parent = sliderIndicator
 
